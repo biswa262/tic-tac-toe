@@ -1,0 +1,44 @@
+body{
+    background-color: #12355B;
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    /* to align the game box to the center */
+    display: flex;
+    justify-content: center;
+}
+.box{
+    color: white;
+    background-color: #D72638;
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow: 0 4px 8px rgba(96, 228, 94, 0.4);
+    font-size: 4rem;
+}
+.gameBox{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.reset{
+    height: 4rem;
+    width: 10rem;
+    border-radius: 1rem;
+    background-color: #4CBB17;
+    color: black;
+    font-size: 2rem;
+}
+#msg{
+    font-size: 2rem;
+    color: white;
+}
+.hide{
+    display: none;
+}
